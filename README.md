@@ -62,27 +62,6 @@ The UCI Gene Expression Cancer RNA‑Seq dataset is a widely used benchmark for:
 
 ---
 
-cancer-type-classification/
-│
-├── notebooks/
-│ └── Project2_cancer_classification.ipynb # End-to-end Colab pipeline
-│
-├── data/ # Input data (not tracked in git)
-│ ├── data.csv # Gene expression matrix (UCI)
-│ └── labels.csv # Sample IDs + cancer types
-│
-├── results/ # Output & analysis
-│ ├── model_performance.tsv # Accuracy of all models
-│ ├── top20_genes_rf.tsv # Top genes by RF importance
-│ └── top20_genes_xgboost.tsv # Top genes by XGBoost importance
-│
-├── models/ # (Optional) saved trained models
-│
-└── README.md
-
-
----
-
 ## 🚀 Quick Start
 
 ### Option 1 – Run in Google Colab
